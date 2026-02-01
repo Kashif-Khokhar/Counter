@@ -1,12 +1,49 @@
-# React + Vite
+# Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, interactive, and minimalist counter application built with React and Vite. This project demonstrates a clean component structure and efficient state management in React.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Increment/Decrement**: Smoothly increase or decrease the count.
+- **Lower Bound Guard**: Prevents the counter from going below zero.
+- **Quick Reset**: Instantly reset the counter to zero with a single click.
+- **Premium UI**: Minimalist design with subtle micro-interactions using Radix Icons.
+- **Responsive**: Fully responsive design for mobile and desktop.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Core library for building the user interface.
+- **Vite**: Ultra-fast build tool and development server.
+- **Vanilla CSS**: Custom-styled UI with a focus on modern aesthetics.
+- **Radix Icons**: High-quality SVG icons for a professional look.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Project Structure
+
+- `src/components/`: Reusable UI components (`Card`, `Count`, `CountButtons`, `Reset`, `Title`).
+- `src/App.jsx`: Main application entry point.
+- `src/index.css`: Global styles and design system.
+
